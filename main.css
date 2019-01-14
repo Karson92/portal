@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width:1024px;
+	margin:0 auto;
+}
+
+header {
+	width:inherit;
+}
+
+article {
+	margin:16px 0px 0px 0px;
+}
+
+#a1 {
+	width:644px;
+	float:left;
+	background-color:#92fb94;
+	word-spacing:20px;
+}
+
+#a2 {
+	width:380px;
+	height:573px;
+	margin:16px 0px 0px 0px;
+	background-color:#88d3f6;
+	float:left;
+	line-height:40px;
+}
+
+#a1 section {
+	padding:16px;
+}
+
+#a2 section {
+	padding:16px;
+}
+
+section:nth-child(2) {
+	background-color:#76eb89;
+}
+section:nth-child(3) {
+	margin-top:0px;
+	background-color:#e7c377;
+}
